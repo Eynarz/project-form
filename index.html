@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Form</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="./styles/index.css" href="./styles/normalize.css">
+
+<body>
+    <div class="form">
+        <form>
+            <h1>Gratis konsultation och offert</h1>
+            <h3>Fyll i formuläret så återkommer vi inom 24 timmar</h3>
+            <label for="namn">Namn</label><br>
+            <input type="text" id="namn" name="namn" placeholder="Skriv ditt namn" required><br><br>
+            <label for="email">E-mail</label><br>
+            <input type="email" id="email" name="email" placeholder="Skriv din e-mail" required><br><br>
+            <label for="adress">Adress</label><br>
+            <input type="text" id="adress" name="adress" placeholder="Fullständig adress" required><br><br>
+            <label for="fname">Vad vill du ha hjälp med?</label><br>
+            <label for="trädfällning">Trädfällning</label>
+            <input type="radio" id="trädfällning" name="hjälp" value="trädfällning"><br>
+            <label for="trädvård">Trädvård</label>
+            <input type="radio" id="trädvård" name="hjälp" value="trädvård"><br>
+            <label for="bortforsling">Bortforsling</label>
+            <input type="radio" id="bortforsling" name="hjälp" value="bortforsling"><br><br>
+            <input type="checkbox" id="godkänna" name="Godkänna" value="Godkänna" required>
+            <label for="Godkänna">Jag godkänner behandling av personuppgifter.<a href="">Läs mer här</a></label><br>
+            <input type="checkbox" id="godkänna2" name="Godkänna2" value="Godkänna2">
+            <label for="Godkänna2">Jag godkänner marknadsföring. <a href="">Läs mer här</a></label><br><br>
+            <input type="submit" value="Skicka in">
+
+        </form>
+        <form>
+            <h3>Redan kund?<br>Logga in här:</h3>
+            <label for="email">E-mail</label><br>
+            <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+            <label for="password"> Lösenord</label><br>
+            <input type="password" id="password" name="password" placeholder="Lösenord min 8 tecken" required
+                minlength="8"><br><br>
+            <input type="submit" value="Logga in">
+        </form>
+    </div>
+</body>
+
+</html>
